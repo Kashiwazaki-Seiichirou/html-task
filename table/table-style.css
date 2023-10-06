@@ -1,0 +1,48 @@
+@charset "UTF-8";
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 34px;
+}
+
+h3{
+    font-size: 29px;
+}
+
+body {
+    background-color: #c6cbc8;
+    background-image: url(img/desktop-wallpaper-dragon-ball-dragon-ball-z-son-goku-gohan-son-gohan-bulma-bulma-briefs-dragon-ball-manga-simple-backg.jpg);
+    background-size: contain;
+}
+
+table {
+    background-color: rgba(255, 254, 251, 0.79);
+    margin-bottom: 5px;
+}
+
+ul li {
+    list-style-image: url(img/pngtree-4-dragon-ball-icon-vector-drgon-illustrtion-png-image_6515607_transparent_transparent.png);
+
+}
+
+table, th, td {
+    border: solid 5px#040404;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+gohan img {
+    width: 300px;
+    height: auto;
+}
+paragasu img {
+    width: 100px;
+    height: auto;
+}
+
+li,
+td {
+    font-size: 21px;
+}
