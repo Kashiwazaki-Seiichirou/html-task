@@ -1,9 +1,13 @@
 .bg-red{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.621);
 }
 #text-blue{
     color: blue;
 }
 span{
     border: 3px dotted green;
+}
+ img {
+    width: 300px;
+    height: auto;
 }
