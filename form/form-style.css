@@ -1,0 +1,19 @@
+@charset "UTF-8";
+ input[type]{              
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+ fieldset{
+    margin-bottom: 0.7rem;
+}
+label{
+    margin-right: 0.5rem;
+}
+a{
+    font-size: 0.7rem;
+    
+}
+
+button{
+    font-size: 0.8rem;
+}
