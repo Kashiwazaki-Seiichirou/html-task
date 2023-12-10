@@ -9,7 +9,7 @@
 .heading01 {
     border-bottom: 7px solid;
     font-weight: bolder;
-    font-size: 23px;
+    font-size: 21px;
     display: inline-block;
     border-image: linear-gradient(to right, #ff0000e7, #ff8c00e1); /* グラデーションの色を指定 */
     border-image-slice: 1; /* グラデーションの範囲を全体に設定 */

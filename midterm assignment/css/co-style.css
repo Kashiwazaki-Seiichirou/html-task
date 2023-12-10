@@ -33,7 +33,7 @@ body{
 .left{
  text-align: left;   
  margin-left: 80px;
- margin-right: 70px;
+ margin-right: 80px;
 }
 
 .ie{
@@ -145,7 +145,7 @@ body{
 }
  
 .rg{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .coop{
