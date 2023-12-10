@@ -1,0 +1,36 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+}
+
+.heading01 {
+    border-bottom: 7px solid;
+    font-weight: bolder;
+    font-size: 23px;
+    display: inline-block;
+    border-image: linear-gradient(to right, #ff0000e7, #ff8c00e1); /* グラデーションの色を指定 */
+    border-image-slice: 1; /* グラデーションの範囲を全体に設定 */
+    margin-bottom: 18px;
+}
+
+body{
+    margin-bottom: 30px;
+   
+}
+
+.F{
+    display: inline;
+    text-align: center;
+}
+
+.fv{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1{
+    text-align: center;
+}

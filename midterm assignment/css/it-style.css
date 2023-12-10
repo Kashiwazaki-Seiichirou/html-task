@@ -1,0 +1,57 @@
+table, th, td {
+    border: solid 3px#040404;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+body{
+    align-items: center;
+}
+
+
+.seireki{
+    width: 130px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 19px;
+}
+
+.name{
+    width: 280px;
+    text-align:center;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.gaiyou{
+    width: 970px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.uirusu{
+    color: red;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.uirusu2{
+    color: red;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.padding{
+    padding: 30px;
+}
+
+.F{
+    display: inline;
+    text-align: center;
+}
+
