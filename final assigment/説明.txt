@@ -1,0 +1,4 @@
+ページ内遷移→HISTORYページの年表部分に組み込みました
+疑似クラス→全てのページのヘッダー部分（hover）
+	     HISTORYページの年表部分（hover）
+	     CHARACTERSページの矢印（hover）

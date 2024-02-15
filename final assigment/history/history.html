@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="../all-style.css">
+    <link rel="stylesheet" href="history.css">
+    <title>HISTORY｜ファイアーエムブレム</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).on('scroll', function () {
+                var scrollPosition = $(this).scrollTop();
+                var sections = ['1990', '1992', '1994', '1996', '1999', '2002', '2003', '2004', '2005', '2007', '2008', '2010', '2012', '2015', '2017', '2017-2', '2019', '2023'];
+
+                sections.forEach(function (section) {
+                    var sectionOffset = $('#' + section).offset().top - 120;
+
+                    if (scrollPosition >= sectionOffset) {
+                        $('.seireki-bar a').removeClass('active');
+                        $('.seireki-bar a[href="#' + section + '"]').addClass('active');
+                    }
+                });
+            });
+        });
+    </script>
+   <script>
+    // JavaScript
+    document.addEventListener('DOMContentLoaded', function() {
+        var headerHeight = document.querySelector('header').offsetHeight;
+        document.querySelector('.bar-block').style.top = headerHeight + 'px';
+        document.querySelector('.bar-block').style.height = 'calc(90vh - ' + headerHeight + 'px)';
+    });
+    </script>
+    <div class="block">
+        <!-- header始まり -->
+        <header>
+            <div class="logo">
+                <div class="fe-logo-frame">
+                    <a href="../index.html"><img src="../index-img/ファイアーエムブレム_ロゴ-removebg-preview.png" alt="FEロゴ"
+                            class="fe-logo"></a>
+                </div>
+            </div>
+
+            <nav>
+                <ul class="global-nav">
+                    <li><a href="../about/about.html">ABOUT</a></li>
+                    <li><a href="#">HISTORY</a></li>
+                    <li><a href="../characters/characters.html">CHARACTERS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- header終わり -->
+        <div class="flex">
+            <div class="block">
+                <div class="yoko" id="1990">
+                    <div class="cont">
+                        <div class="cont1">HISTORY</div>
+                        <div class="cont2">歴史</div>
+                    </div>
+
+                    <div class="item">
+                        <div class="seireki">1990</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">暗黒竜と光の剣</div><br>
+                        <div class="hard">ファミリーコンピュータ</div>
+                        <div class="hard">1990.4.20 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/暗黒竜と光の剣.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="1992">
+
+                    <div class="item">
+                        <div class="seireki">1992</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">　外伝</div><br>
+                        <div class="hard">ファミリーコンピュータ</div>
+                        <div class="hard">1992.3.14 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/外伝.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="1994">
+
+                    <div class="item">
+                        <div class="seireki">1994</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">紋章の謎</div><br>
+                        <div class="hard">スーパーファミコン</div>
+                        <div class="hard">1994.1.21 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/紋章の謎.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="1996">
+
+                    <div class="item">
+                        <div class="seireki">1996</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">聖戦の系譜</div><br>
+                        <div class="hard">スーパーファミコン</div>
+                        <div class="hard">1996.5.14 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/聖戦の系譜.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="1999">
+
+                    <div class="item">
+                        <div class="seireki">1999</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">トラキア776</div><br>
+                        <div class="hard">スーパーファミコン</div>
+                        <div class="hard">1999.9.1 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/トラキア776.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="2002">
+
+                    <div class="item">
+                        <div class="seireki">2002</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">封印の剣</div><br>
+                        <div class="hard">ゲームボーイアドバンス</div>
+                        <div class="hard">2002.3.29 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/封印の剣.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="2003">
+
+                    <div class="item">
+                        <div class="seireki">2003</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">烈火の剣</div><br>
+                        <div class="hard">ゲームボーイアドバンス</div>
+                        <div class="hard">2003.4.25 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/烈火の剣.jpg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="yoko2" id="2004">
+
+                    <div class="item">
+                        <div class="seireki">2004</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">聖魔の光石</div><br>
+                        <div class="hard">ゲームボーイアドバンス</div>
+                        <div class="hard">2004.10.7 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/聖魔の光石.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="2005">
+
+                    <div class="item">
+                        <div class="seireki">2005</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">蒼炎の軌跡</div><br>
+                        <div class="hard">ゲームキューブ</div>
+                        <div class="hard">2005.4.20 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/蒼炎の軌跡.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="2007">
+
+                    <div class="item">
+                        <div class="seireki">2007</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">暁の女神</div><br>
+                        <div class="hard">Wii</div>
+                        <div class="hard">2007.2.22 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/暁の女神.jpg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="yoko2" id="2008">
+
+                    <div class="item">
+                        <div class="seireki">2008</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei-shin">新・暗黒竜と光の剣</div><br>
+                        <div class="hard">ニンテンドーDS</div>
+                        <div class="hard">2008.8.7 発売</div>
+                    </div>
+                    <div class="img-shin">
+                        <img src="../history/history-img/新・暗黒竜と光の剣.jpg" alt="">
+                    </div>
+                </div>
+
+
+
+                <div class="yoko2" id="2010">
+
+                    <div class="item">
+                        <div class="seireki">2010</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">新・紋章の謎</div>
+                        <div class="daimei-monnshou">～光と影の英雄～</div><br>
+                        <div class="hard">ニンテンドーDS</div>
+                        <div class="hard">2010.7.15 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/新・紋章の謎.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="2012">
+
+                    <div class="item">
+                        <div class="seireki">2012</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">　覚醒</div><br>
+                        <div class="hard">ニンテンドー3DS</div>
+                        <div class="hard">2012.4.19 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/覚醒.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="2015">
+
+                    <div class="item">
+                        <div class="seireki">2015</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei-if">if</div><br>
+                        <div class="hard">ニンテンドー3DS</div>
+                        <div class="hard">2015.6.25 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/if.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="2017">
+
+                    <div class="item">
+                        <div class="seireki">2017</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">ヒーローズ</div><br>
+                        <div class="hard">スマートフォン向けアプリ</div>
+                        <div class="hard">配信中（2017.2.2配信開始）</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/ヒーローズ.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="2017-2">
+
+                    <div class="item">
+                        <div class="seireki">2017</div>
+                        <div class="FE">ファイアーエムブレム</div>
+                        <div class="daimei">　Echoes</div>
+                        <div class="daimei-monnshou">もう一人の英雄王</div><br>
+                        <div class="hard">ニンテンドー3DS</div>
+                        <div class="hard">2017.4.20 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/Echoes.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="2019">
+
+                    <div class="item">
+                        <div class="seireki">2019</div>
+                        <div class="FE">ファイアーエムブレム</div><br>
+                        <div class="daimei">風花雪月</div><br>
+                        <div class="hard">Nintendo Switch</div>
+                        <div class="hard">2019.7.26 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/風花雪月.jpg" alt="" class="huuka_img">
+                    </div>
+                </div>
+
+                <div class="yoko2" id="2023">
+
+                    <div class="item">
+                        <div class="seireki">2023</div>
+                        <div class="FE">ファイアーエムブレム</div><br>
+                        <div class="daimei">エンゲージ</div><br>
+                        <div class="hard">Nintendo Switch</div>
+                        <div class="hard">2023.1.20 発売</div>
+                    </div>
+                    <div class="img">
+                        <img src="../history/history-img/エンゲージ.jpg" alt="" class="engage_img">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="block">
+                <div class="bar-block" >
+                    <div class="seireki-bar"><a href="#1990">1990-<br>暗黒竜と光の剣</a></div>
+                    <div class="seireki-bar"><a href="#1992">1992-<br>外伝</a></div>
+                    <div class="seireki-bar"><a href="#1994">1994-<br>紋章の謎</a></div>
+                    <div class="seireki-bar"><a href="#1996">1996-<br>聖戦の系譜</a></div>
+                    <div class="seireki-bar"><a href="#1999">1999-<br>トラキア776</a></div>
+                    <div class="seireki-bar"><a href="#2002">2002-<br>封印の剣</a></div>
+                    <div class="seireki-bar"><a href="#2003">2003-<br>烈火の剣</a></div>
+                    <div class="seireki-bar"><a href="#2004">2004-<br>聖魔の光石</a></div>
+                    <div class="seireki-bar"><a href="#2005">2005-<br>蒼炎の軌跡</a></div>
+                    <div class="seireki-bar"><a href="#2007">2007-<br>暁の女神</a></div>
+                    <div class="seireki-bar"><a href="#2008">2008-<br>新・暗黒竜と光の剣</a></div>
+                    <div class="seireki-bar"><a href="#2010">2010-<br>新・紋章の謎</a></div>
+                    <div class="seireki-bar"><a href="#2012">2012-<br>覚醒</a></div>
+                    <div class="seireki-bar"><a href="#2015">2015-<br>if</a></div>
+                    <div class="seireki-bar"><a href="#2017">2017-<br>ヒーローズ</a></div>
+                    <div class="seireki-bar"><a href="#2017-2">2017-<br>Echoes</a></div>
+                    <div class="seireki-bar"><a href="#2019">2019-<br>風花雪月</a></div>
+                    <div class="seireki-bar"><a href="#2023">2023-<br>エンゲージ</a></div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

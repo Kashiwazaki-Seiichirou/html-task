@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="../all-style.css">
+    <link rel="stylesheet" href="characters-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>CHARACTERS｜ファイアーエムブレム</title>
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: white;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        body {
+            background: white;
+            color: #000;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+
+        .swiper-slide {
+            background-size: cover;
+            background-position: center;
+            display: flex;
+        }
+
+        .mySwiper2 {
+            height: 80%;
+            width: 100%;
+
+        }
+
+        .mySwiper {
+            height: 20%;
+            box-sizing: border-box;
+
+        }
+
+        .mySwiper .swiper-slide {
+            width: 25%;
+            height: 100%;
+            opacity: 0.4;
+            display: flex;
+        }
+
+        .mySwiper .swiper-slide-thumb-active {
+            opacity: 1;
+            border-top: 5px solid black;
+
+        }
+
+        .mySwiper2 .swiper-slide img {
+            display: flex;
+            width: 350px;
+            height: 450px;
+            transform: scale(1.1);
+            margin-top: 30px;
+            margin-left: 120px;
+        }
+
+
+        .mySwiper2 .swiper-slide img {
+            display: flex;
+            width: 350px;
+            height: 450px;
+            transform: scale(1.1);
+            margin-top: 30px;
+        }
+
+        .mySwiper2 img.ankokuryu-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.37);
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.gaiden-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.1);
+            margin-top: 50px;
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.monshou-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.32);
+            margin-top: 20px;
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.seisen-T {
+            width: 600px;
+            height: 500px;
+            transform: scale(1.5);
+            margin-top: 140px;
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.torakia-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.4);
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.huuin-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.1);
+            margin-top: 45px;
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.rekka-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.2);
+            margin-top: 50px;
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.seima-T {
+            width: 620px;
+            height: 620px;
+            transform: scale(1.1);
+            margin-left: 50px;
+
+        }
+
+        .mySwiper2 img.souen-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.13);
+            margin-top: 50px;
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.akatuki-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.05);
+            margin-top: 30px;
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.shinankokuryu-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.11);
+            margin-top: 40px;
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.shinmonshou-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.34);
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.kakusei-T {
+            width: 580px;
+            height: 620px;
+            transform: scale(1.1);
+            margin-top: 20px;
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.if-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.05);
+            margin-top: 25px;
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.heroes-T {
+            width: 630px;
+            height: 630px;
+            transform: scale(1.3);
+            margin-left: 5px;
+        }
+
+        .mySwiper2 img.echoes-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.27);
+            margin-top: 100px;
+
+
+        }
+
+
+        .mySwiper2 img.huuka-T {
+            width: 800px;
+            height: 600px;
+            transform: scale(1.35);
+            margin-top: 35px;
+            margin-left: 1px;
+        }
+
+        .mySwiper2 img.engage-T {
+            width: 600px;
+            height: 600px;
+            transform: scale(1.3);
+            margin-top: 100px;
+            margin-left: 5px;
+        }
+
+
+
+        .mySwiper .swiper-slide img {
+            object-fit: contain;
+
+        }
+
+        .swiper-button-next {
+            color: white;
+            background-color: black;
+            padding: 8.5px;
+            border-radius: 2px;
+            margin-top: 30px;
+        }
+
+        .swiper-button-prev {
+            color: white;
+            background-color: black;
+            padding: 8.5px;
+            border-radius: 2px;
+            margin-top: 30px;
+        }
+
+
+        .swiper-button-next:hover {
+            color: white;
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        .swiper-button-prev:hover {
+            color: white;
+            background-color: black;
+            opacity: 0.5;
+        }
+
+
+
+        .mySwiper2 .cont {
+            font-size: 30px;
+            position: relative;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            position: absolute;
+            /* 必要に応じてz-indexを設定 */
+            /* 他のスタイルプロパティ */
+        }
+
+
+        .cont1 {
+            color: black;
+            font-family: HGS明朝B;
+            font-style: oblique;
+            font-size: 20px;
+            font-weight: bolder;
+            padding-top: 20px;
+            margin-left: 50px;
+        }
+
+        .cont2 {
+            color: black;
+            font-family: HGS明朝B;
+            font-style: italic;
+            font-size: 23px;
+            font-weight: bolder;
+            margin-left: 50px;
+        }
+
+
+
+        .mySwiper2 img.kakusei_logo {
+            transform: scale(1.2);
+
+        }
+
+        .mySwipe2 img.heroes_logo {
+            transform: scale(1.5);
+
+        }
+
+        .mySwiper2 img.huuka_logo {
+            margin-left: 20px;
+
+        }
+
+        .mySwiper2 img.echoes_logo {
+            transform: scale(1.32);
+           padding-left: 90px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header始まり -->
+    <header>
+        <div class="logo">
+            <div class="fe-logo-frame">
+                <a href="../index.html"><img src="../index-img/ファイアーエムブレム_ロゴ-removebg-preview.png" alt="FEロゴ"
+                        class="fe-logo"></a>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="global-nav">
+                <li><a href="../about/about.html">ABOUT</a></li>
+                <li><a href="../history/history.html">HISTORY</a></li>
+                <li><a href="#">CHARACTERS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header終わり -->
+
+    <!-- Swiper -->
+
+    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide">
+
+                <img src="characters-img/暗黒竜と光の剣_ロゴ.png" alt="">
+
+
+                <img src="characters-img/暗黒竜_立ち絵.png" alt="" class="ankokuryu-T">
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="characters-img/外伝_ロゴ.png" alt="">
+
+                <img src="characters-img/外伝_立ち絵.png" alt="" class="gaiden-T">
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="characters-img/紋章の謎_ロゴ.png" alt="">
+
+                <img src="characters-img/紋章_立ち絵.png" alt="" class="monshou-T">
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="characters-img/聖戦の系譜_ロゴ.png" alt="">
+
+                <img src="characters-img/聖戦_立ち絵①.png" alt="" class="seisen-T">
+
+            </div>
+
+            <div class="swiper-slide">
+
+
+                <img src="characters-img/トラキア776_ロゴ.png" alt="">
+
+
+                <img src="characters-img/トラキア_立ち絵.png" alt="" class="torakia-T">
+
+
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="characters-img/封印の剣_ロゴ.png" alt="">
+
+                <img src="characters-img/封印_立ち絵.png" alt="" class="huuin-T">
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="characters-img/烈火の剣_ロゴ.png" alt="">
+
+                <img src="characters-img/烈火_立ち絵.png" alt="" class="rekka-T">
+
+            </div>
+
+            <div class="swiper-slide">
+                <img src="characters-img/聖魔の光石_ロゴ.png" alt="">
+
+                <img src="characters-img/聖魔_立ち絵.png" alt="" class="seima-T">
+
+            </div>
+
+            <div class="swiper-slide">
+                <img src="characters-img/蒼炎の軌跡_ロゴ.png" alt="">
+                <img src="characters-img/蒼炎_立ち絵.png" alt="" class="souen-T">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="characters-img/暁の女神_ロゴ.png" alt="">
+
+                <img src="characters-img/暁_立ち絵.png" alt="" class="akatuki-T">
+
+            </div>
+
+            <div class="swiper-slide">
+                <img src="characters-img/新・暗黒竜_ロゴ.png" alt="">
+
+                <img src="characters-img/新暗黒竜_立ち絵.png" alt="" class="shinankokuryu-T">
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="characters-img/新・紋章_ロゴ.png" alt="">
+
+                <img src="characters-img/新紋章_立ち絵.png" alt="" class="shinmonshou-T">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="characters-img/覚醒_ロゴ.png" alt="" class="kakusei_logo">
+                <img src="characters-img/覚醒_立ち絵.png" alt="" class="kakusei-T">
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="characters-img/if_ロゴ.jpg" alt="">
+
+                <img src="characters-img/カムイ女_立ち絵.png" alt="" class="if-T">
+
+            </div>
+
+            <div class="swiper-slide">
+                <img src="characters-img/ヒーローズ_ロゴ.png" alt="" class="heroes_logo">
+                <img src="characters-img/アルフォンス_立ち絵.png" alt="" class="heroes-T">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="characters-img/Echoes_ロゴ.png" alt="" class="echoes_logo">
+                <img src="characters-img/アルム_立ち絵.png" alt="" class="echoes-T">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="characters-img/風花雪月_ロゴ.png" alt="" class="huka_logo">
+
+                <img src="characters-img/風花雪月_立ち絵.png" alt="" class="huuka-T">
+
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="characters-img/エンゲージ_ロゴ.png" alt=""></a>
+
+                <img src="characters-img/エンゲージ_立ち絵.webp" alt="" class="engage-T">
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    </div>
+    <div thumbsSlider="" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="characters-img/暗黒竜と光の剣_ロゴ.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/外伝_ロゴ.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/紋章の謎_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/聖戦の系譜_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/トラキア776_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/封印の剣_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/烈火の剣_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/聖魔の光石_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/蒼炎の軌跡_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/暁の女神_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/新・暗黒竜_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/新・紋章_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/覚醒_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/if_ロゴ.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/ヒーローズ_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/Echoes_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/風花雪月_ロゴ.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="characters-img/エンゲージ_ロゴ.png" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            loop: true,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+    </script>
+
+
+
+</body>
+
+</html>

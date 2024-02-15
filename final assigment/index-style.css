@@ -1,0 +1,125 @@
+.chara-images{
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+body{
+    overflow-x: hidden;
+    padding-bottom: 0;
+}
+
+.chara-setumei{
+    position: absolute;
+    z-index: 2;
+    top: 265px;
+    left: 200px;
+    font-size: 60px;
+    font-family:HGS明朝B;
+    line-height: 80px;
+    font-style: italic;
+    color         : white;
+    background: rgba(0, 0, 0, 0.75);
+    font-weight: bolder;
+}
+
+.chara-setumei2{
+    position: absolute;
+    z-index: 2;
+    top: 345px;
+    left: 530px;
+    font-size: 70px;
+    font-family:HGS明朝B;
+    line-height: 80px;
+    font-style: italic;
+    color         : white;
+    background: rgba(0, 0, 0, 0.75);
+    font-weight: bolder;
+}
+
+.images-frame{
+    padding-top: 65px;
+    height: 430px;
+    width: 160px;
+    margin: 0 auto;
+}
+
+.images-frame img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.34);
+}
+
+.images-frame-Lyn{
+   padding-top: 70px;
+    height: 430px;
+    width: 160px;
+    margin: 0 auto;
+}
+.images-frame-Lyn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.35);
+    padding: 1px;
+}
+
+.images-frame-Byleth{
+    padding-top: 75px;
+     height: 430px;
+     width: 130px;
+     margin: 0 auto;
+     padding-left: 1px;
+ }
+ .images-frame-Byleth img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.45);
+}
+
+
+ .images-frame-Mikaya{
+    padding-top: 85px;
+    height: 430px;
+    width: 155px;
+    margin: 0 auto;
+ 
+ }
+.images-frame-Mikaya img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.37);
+    padding: 1px;
+}
+
+.images-frame-Roy{
+    padding-top: 60px;
+    height: 440px;
+    width: 140px;
+    margin: 0 auto;
+ 
+ }
+
+
+.images-frame-Roy img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.39);
+   
+}
+
+.solid{
+    border-right: 2px solid black;
+    height: 600px;
+}
+
+body{
+    height: 1500px;
+    overflow: hidden;
+}
+
+
